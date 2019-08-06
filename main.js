@@ -5,7 +5,7 @@ const btnStart = document.getElementById('start');
 const btnRestart = document.getElementById('restart');
 const fx = new Audio('audio/collision.mp3');
 const bgm = new Audio('audio/bgm.mp3');
-var images = {}, backgrounds = [], car = {}, enemies = [], score = 0,
+var images = {}, backgrounds = [], car = {}, enemies = [], score = 0;
 var enemiesSprite = [0, 262, 547];
 
 function loadImage(url) {
